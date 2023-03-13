@@ -6,6 +6,7 @@
 .page-container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .header-container {
@@ -42,14 +43,43 @@
 
 .header-title > h1 {
     width: 140.79px;
-height: 24px;
-margin-left: 6.67px;
+    height: 24px;
+    margin-left: 6.67px;
 
-font-family: 'Karla';
-font-style: normal;
-font-weight: 700;
-font-size: 20.7482px;
-line-height: 24px;
-letter-spacing: -0.1em;
-color: #FFFFFF;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+}
+
+.meme-container {
+    width: 500px;
+    height: 160px;
+}
+
+.meme-input {
+    width: 205px;
+    height: 35px;
+    margin-top: 36px;
+    margin-bottom: 18px;
+    margin-left: 26px;
+}
+
+.meme-btn {
+    width: 445px;
+    height: 40px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    margin-left: 26px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
 }
