@@ -62,7 +62,7 @@ body {
 
 .meme-container {
     width: 500px;
-    height: 160px;
+    height: fit-content;
 }
 
 .meme-input {
