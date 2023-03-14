@@ -93,3 +93,7 @@ body {
     border: none;
     cursor: pointer;
 }
+
+.meme-img {
+    width: 100%;
+}
